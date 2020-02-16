@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling">
+
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+
+     <TextView
+         android:id="@+id/day_1_text"
+         android:layout_width="178dp"
+         android:layout_marginTop="32dp"
+         android:layout_height="150dp"
+         android:gravity="center"
+         android:text="Day 1" />
+
+     <TextView
+         android:id="@+id/day_2_text"
+         android:layout_width="178dp"
+         android:layout_height="150dp"
+         android:layout_marginTop="35dp"
+         android:layout_alignParentRight="true"
+         android:gravity="center"
+         android:text="Day 2" />
+
+    <TextView
+        android:id="@+id/day_3_text"
+        android:layout_width="178dp"
+        android:layout_height="150dp"
+        android:gravity="center"
+        android:layout_below="@id/day_2_text"
+        android:text="Day 3"
+        />
+
+     <TextView
+         android:id="@+id/day_4_text"
+         android:layout_width="178dp"
+         android:layout_height="150dp"
+         android:layout_below="@id/day_2_text"
+         android:layout_alignParentRight="true"
+         android:gravity="center"
+         android:text="Day 2" />
+
+     <TextView
+         android:id="@+id/day_5_text"
+         android:layout_width="178dp"
+         android:layout_height="150dp"
+         android:gravity="center"
+         android:layout_below="@id/day_3_text"
+         android:text="Day 5"
+         />
+
+     <TextView
+         android:id="@+id/day_6_text"
+         android:layout_width="178dp"
+         android:layout_height="150dp"
+         android:layout_below="@id/day_4_text"
+         android:layout_alignParentRight="true"
+         android:gravity="center"
+         android:text="Day 6" />
+
+ </RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>
