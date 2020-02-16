@@ -12,58 +12,260 @@
      android:layout_width="match_parent"
      android:layout_height="wrap_content">
 
-     <TextView
+     <RelativeLayout
          android:id="@+id/day_1_text"
          android:layout_width="178dp"
-         android:layout_marginTop="32dp"
          android:layout_height="150dp"
-         android:gravity="center"
-         android:text="Day 1" />
+         android:layout_marginTop="32dp"
+        android:background="#FAFCF7F7"
+          >
+         <TextView
+             android:id="@+id/day_1_text_day"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+android:layout_marginLeft="40dp"             android:layout_marginTop="5dp"
+             android:hint="Day One"
+             android:textSize="20sp"
+             android:textStyle="bold"
+             />
+         <TextView
+             android:id="@+id/day_1_text_m"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@id/day_1_text_day"
+             android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+             android:hint="M :   °C"
+             android:textSize="16sp"
+             />
+         <TextView
+             android:id="@+id/day_1_text_n"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@id/day_1_text_m"
 
-     <TextView
+             android:layout_marginLeft="40dp"
+             android:layout_marginTop="5dp"
+             android:hint="N :   °C"
+             android:textSize="16sp"
+             />
+         <TextView
+             android:id="@+id/day_1_text_e"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@id/day_1_text_n"
+             android:layout_marginLeft="40dp"
+             android:layout_marginTop="5dp"
+             android:hint="E :   °C"
+             android:textSize="16sp"
+             />
+
+
+
+     </RelativeLayout>
+
+     <RelativeLayout
          android:id="@+id/day_2_text"
          android:layout_width="178dp"
          android:layout_height="150dp"
-         android:layout_marginTop="35dp"
          android:layout_alignParentRight="true"
-         android:gravity="center"
-         android:text="Day 2" />
+         android:layout_marginTop="35dp"
+         android:background="#FAFCF7F7"
+         >
+         <TextView
+             android:id="@+id/day_2_text_day"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="5dp"
+             android:layout_marginLeft="40dp"
+             android:hint="Day Two"
+             android:textSize="20sp"
+             android:textStyle="bold"
+             />
+         <TextView
+             android:id="@+id/day_2_text_m"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@id/day_2_text_day"
+             android:layout_marginLeft="40dp"
+             android:layout_marginTop="10dp"
+             android:hint="M :   °C"
+             android:textSize="16sp"
+             />
+         <TextView
+             android:id="@+id/day_2_text_n"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@id/day_2_text_m"
 
-    <TextView
+             android:layout_marginLeft="40dp"
+             android:layout_marginTop="5dp"
+             android:hint="N :   °C"
+             android:textSize="16sp"
+             />
+         <TextView
+             android:id="@+id/day_2_text_e"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@id/day_2_text_n"
+             android:layout_marginLeft="40dp"
+             android:layout_marginTop="5dp"
+             android:hint="E :   °C"
+             android:textSize="16sp"
+             />
+     </RelativeLayout>
+
+         <RelativeLayout
         android:id="@+id/day_3_text"
         android:layout_width="178dp"
         android:layout_height="150dp"
-        android:gravity="center"
         android:layout_below="@id/day_2_text"
-        android:text="Day 3"
-        />
-
+             android:background="#FAFCF7F7"
+             >
      <TextView
+         android:id="@+id/day_3_text_day"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+android:layout_marginLeft="40dp"
+         android:layout_marginTop="5dp"
+         android:hint="Day Three"
+         android:textSize="20sp"
+         android:textStyle="bold"
+         />
+     <TextView
+         android:id="@+id/day_3_text_m"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@id/day_3_text_day"
+         android:layout_marginLeft="40dp"
+         android:layout_marginTop="10dp"
+         android:hint="M :   °C"
+         android:textSize="16sp"
+         />
+     <TextView
+         android:id="@+id/day_3_text_n"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@id/day_3_text_m"
+
+         android:layout_marginLeft="40dp"
+         android:layout_marginTop="5dp"
+         android:hint="N :   °C"
+         android:textSize="16sp"
+         />
+     <TextView
+         android:id="@+id/day_3_text_e"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@id/day_3_text_n"
+         android:layout_marginLeft="40dp"
+         android:layout_marginTop="5dp"
+         android:hint="E :   °C"
+         android:textSize="16sp"
+         />
+
+         </RelativeLayout>
+
+     <RelativeLayout
          android:id="@+id/day_4_text"
          android:layout_width="178dp"
          android:layout_height="150dp"
          android:layout_below="@id/day_2_text"
          android:layout_alignParentRight="true"
-         android:gravity="center"
-         android:text="Day 2" />
+         android:background="#FAFCF7F7"
+         >
+         <TextView
+             android:id="@+id/day_4_text_day"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+android:layout_marginLeft="40dp"             android:layout_marginTop="5dp"
+             android:hint="Day Four"
+             android:textSize="20sp"
+             android:textStyle="bold"
+             />
+         <TextView
+             android:id="@+id/day_4_text_m"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@id/day_4_text_day"
+             android:layout_marginLeft="40dp"
+             android:layout_marginTop="10dp"
+             android:hint="M :   °C"
+             android:textSize="16sp"
+             />
+         <TextView
+             android:id="@+id/day_4_text_n"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@id/day_4_text_m"
 
-     <TextView
+             android:layout_marginLeft="40dp"
+             android:layout_marginTop="5dp"
+             android:hint="N :   °C"
+             android:textSize="16sp"
+             />
+         <TextView
+             android:id="@+id/day_4_text_e"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@id/day_4_text_n"
+             android:layout_marginLeft="40dp"
+             android:layout_marginTop="5dp"
+             android:hint="E :   °C"
+             android:textSize="16sp"
+             />
+
+     </RelativeLayout>
+         <RelativeLayout
          android:id="@+id/day_5_text"
          android:layout_width="178dp"
          android:layout_height="150dp"
-         android:gravity="center"
          android:layout_below="@id/day_3_text"
-         android:text="Day 5"
-         />
+             android:background="#FAFCF7F7"
+             >
+             <TextView
+                 android:id="@+id/day_5_text_day"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+android:layout_marginLeft="40dp"                 android:layout_marginTop="5dp"
+                 android:hint="Day Five"
+                 android:textSize="20sp"
+                 android:textStyle="bold"
+                 />
+             <TextView
+                 android:id="@+id/day_5_text_m"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_below="@id/day_5_text_day"
+                 android:layout_marginLeft="40dp"
+                 android:layout_marginTop="10dp"
+                 android:hint="M :   °C"
+                 android:textSize="16sp"
+                 />
+             <TextView
+                 android:id="@+id/day_5_text_n"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_below="@id/day_5_text_m"
 
-     <TextView
-         android:id="@+id/day_6_text"
-         android:layout_width="178dp"
-         android:layout_height="150dp"
-         android:layout_below="@id/day_4_text"
-         android:layout_alignParentRight="true"
-         android:gravity="center"
-         android:text="Day 6" />
+                 android:layout_marginLeft="40dp"
+                 android:layout_marginTop="5dp"
+                 android:hint="N :   °C"
+                 android:textSize="16sp"
+                 />
+             <TextView
+                 android:id="@+id/day_5_text_e"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_below="@id/day_5_text_n"
+                 android:layout_marginLeft="40dp"
+                 android:layout_marginTop="5dp"
+                 android:hint="E :   °C"
+                 android:textSize="16sp"
+                 />
+
+         </RelativeLayout>
+
 
  </RelativeLayout>
 

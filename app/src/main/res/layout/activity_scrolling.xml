@@ -31,14 +31,69 @@
                 app:layout_collapseMode="pin"
                 app:popupTheme="@style/AppTheme.PopupOverlay" />
 
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/day_3_text"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center_horizontal"
+            >
             <TextView
-                android:id="@+id/day_text"
+                android:id="@+id/today_text_day"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:text="Day 1"
-                android:textSize="40sp"/>
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:hint="Today"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/today_text_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/today_text_day"
+android:layout_centerHorizontal="true"
+                android:hint="12 Feb 2010"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+            <TextView
+
+                android:id="@+id/today_text_m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/today_text_date"
+android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:hint="Current : °C"
+                android:textAlignment="center"
+
+                android:textSize="46sp"
+                />
+      <!--      <TextView
+                android:id="@+id/today_text_n"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/today_text_m"
+android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:hint="N :   °C"
+                android:textSize="16sp"
+                />
+            <TextView
+                android:id="@+id/today_text_e"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/today_text_n"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:hint="E :   °C"
+                android:textSize="16sp"
+                />-->
+
+        </RelativeLayout>
 
 
         </com.google.android.material.appbar.CollapsingToolbarLayout>

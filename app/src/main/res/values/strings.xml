@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Khoslalabs</string>
+    <string name="current_bar_string">Current Temp : °C</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
 
